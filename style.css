@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.margi-lateral {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.logo-e-links-do-cabecalho {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-e-links-do-cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-e-links-do-cabecalho div {
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+}
+
+.logo-e-links-do-cabecalho div img {
+    width: 20px;
+}
+
+header img {
+    width: 100%;
+    background-size: cover;
+}
+
+main > header {
+    border-bottom: 1px solid gray;
+}
+
+.cabecalho-dos-produtos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.produto-individual{
+    max-width: 30%;
+}
+
+.produto-individual img {
+    width: 300px;
+}
+
+.titulo-do-produto {
+    margin-top: 2.5%;
+}
+
+.descricao-do-produto {
+    margin-top: 2%;
+}
+
+.valor-do-produto {
+    display: flex;
+    margin-top: 5%;
+}
+
+.valor-original {
+    background-color: rgba(255, 81, 81, 0.52);
+    padding: 5px;
+}
+
+.valor-atual {
+    background-color: rgba(38, 170, 38, 0.528);
+    padding: 5px;
+    margin-left: 5%;
+}
+
+footer {
+    height: 150px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-termos-pilitica-cancelamento {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+}
+
+.contato-termos-pilitica-cancelamento a {
+    text-decoration: none;
+    color: black;
+    margin: 3px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+form div {
+    display: flex;
+}
+
+form div input {
+    padding: 3px 10px;
+}
+
+form div button {
+    padding: 3px 10px;
+    background-color: rgba(38, 170, 38, 0.528);
+}
